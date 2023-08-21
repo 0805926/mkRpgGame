@@ -1,0 +1,12 @@
+@font-face {
+    font-family: GameFont;
+    /* src: url("mplus-1m-regular.ttf"); */
+    src:url("方正像素12.TTF");
+}
+
+.IIV::-webkit-media-controls-play-button,
+video::-webkit-media-controls-start-playback-button {
+    opacity: 0;
+    pointer-events: none;
+    width: 5px;
+}
